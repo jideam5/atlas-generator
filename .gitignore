@@ -1,0 +1,70 @@
+## for mac os x
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+## Thumbnails
+._*
+tmp
+
+## hack for graddle wrapper
+!wrapper/*.jar
+!**/wrapper/*.jar
+
+## for intellij
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+## for java
+*.class
+
+## Package Files #
+*.jar
+*.war
+*.ear
+
+
+# "temporary" build files
+target/
+out/
+build/
+dist/
+cmake-build-debug/
+*.o
+*.so
+*.a
+.cache/
+
+# nodejs
+dist/electron/*
+dist/web/*
+build/*
+!build/icons
+node_modules/
+npm-debug.log
+npm-debug.log.*
+thumbs.db
+!.gitkeep
+package-lock.json
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
+*.log.*
+
+# IDE support files
+/.classpath
+/.launch
+/.project
+/.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
